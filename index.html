@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websocket Test</title>
+</head>
+
+<body>
+    <form id="login-form">
+        <input type="text" id="username-input" placeholder="Enter username">
+        <input type="text" id="password-input" placeholder="Enter password">
+        <button type="submit">Send</button>
+    </form>
+    <ul id="messages"></ul>
+    <form id="room-form">
+        <input type="text" id="room-room-input" placeholder="Type a room">
+        <button type="submit">Send</button>
+    </form>
+    <form id="message-form">
+        <input type="text" id="room-input" placeholder="Type a room">
+        <input type="text" id="message-input" placeholder="Type a message">
+        <button type="submit">Send</button>
+    </form>
+    <form id="invite-form">
+        <input type="text" id="user-input" placeholder="Type a user">
+        <input type="text" id="lobby-input" placeholder="Type a lobby">
+        <button type="submit">Send</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
